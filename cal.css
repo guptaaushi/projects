@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+body{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+     background-image: url(calcu.jpg);
+     background-size: cover;
+
+}
+.calculator{
+    border: 5px solid rgb(48, 46, 45);
+    padding: 20px;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(0, 0, 1, 1);
+     position: absolute;
+     top: 5%;
+     left: 55%;
+    
+}
+input{
+    width: 320px;
+    border: none;
+    border-radius: 25px;
+    padding: 24px;
+    margin: 10px;
+    background: rgb(46, 44, 42);
+    box-shadow: 0px 3px 15px rgbs(#111110,0.1);
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    color: rgb(243, 238, 233);
+}
+
+input::placeholder{
+    color:rgb(83, 81, 79);
+}
+button{
+    border: #080403;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #605c5c;
+    color: #c2ac06;
+    font-size: 25px;
+    box-shadow: -8px -8px 15px rgb(#6b605e);
+    cursor: pointer;
+}
+.boss:hover{s
+    color: azure;
+    background: #b6a6a4;
+}
+
+.equal{
+    background-color: #110a03;
+}
+.equal:hover{
+    color: azure;
+    background: #635805;
+}
+.pretty{
+    color:#0a0b0b;
+}
+.pretty:hover {
+    color:azure;
+    background: #b5d80a;
+}
+
+
+
+

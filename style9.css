@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&1000;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.hero {
+
+    height: 100vh;
+     width: 100%;
+    background-image: url(aaaa.jpg);
+     background-size: cover;
+    background-position: center;
+
+}
+.logo{
+    font-size: 50px;
+    color:white;
+    font-weight: 600;
+    cursor:pointer;
+    letter-spacing: 1px;
+}
+span{
+    color:#ff4500;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display:flex;
+}
+nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color:#ff4500;
+    transition: .4s;
+}
+.btn{
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+   transform: translateX(10%);
+}
+h1{
+    color:#191919;
+    margin: 5px 0 5px;
+    font-size: 50px;
+}
+h3{
+    color:#101010;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+h2{
+    color: #191919;
+    font-size: 40px;
+    margin: 5px 0 5px;
+}
+p{
+    color: #101010;
+    font-size: 20px;
+    margin: 15px 0 15px;
+}
+.social-media{
+    display: flex;
+}
+.social-media a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#ff4500;
+    border-radius: 50%;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    text-decoration: none;
+
+}
+.social-media a:hover{
+    background-color: transparent;
+    border: 2px solid #ff4500;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #2e2d2d;;
+}
+.about img {
+    height: auto;
+    width: 430px;
+    }
+.about-text {
+    width: 550px;
+    }
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h2 span{
+    color:#ff4500;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h3 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button {
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 10px;
+
+}
+button:hover {
+    background-color: transparent;
+    border: 2px solid #ff4500;
+    cursor: pointer;
+}
+.portfolio{
+    background: #191919;
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+.portfolio-titles{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+   align-items: center;
+    gap: 2.5rem;
+     margin-top: 5rem;
+}
+
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background:#2e2d2d;;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.contact-me .button-two {
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover {
+    background-color: transparent;
+    border: 2px solid #ff4500;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
